@@ -1,0 +1,50 @@
+@import url("https://fonts.googleapis.com/css2?family=Outfit:wght@400;700&display=swap");
+
+:root {
+  /* Color Palette */
+  --color-primary: hsl(216deg, 15%, 48%);
+  --color-primary-light: hsl(212deg, 45%, 89%);
+  --color-primary-dark: hsl(218deg, 44%, 22%);
+  --color-white: hsl(0deg, 0%, 100%);
+
+  /* Typography */
+
+  --font-family: "Outfit";
+  --font-size-regular: 15px;
+  --font-size-lg: 22px;
+  --font-weight-regular: 400;
+  --font-weight-bold: 700;
+  --line-height-bold: 120%;
+  --line-height-regular: 140%;
+  --letter-spacing-regular: 0.2px;
+
+  /* Spacing */
+  --spacing-200: 16px;
+  --spacing-300: 24px;
+  --spacing-500: 40px;
+}
+
+body {
+  background-color: var(--color-primary-light);
+}
+
+.text-outfit-regular {
+  color: var(--color-primary-dark);
+  font-family: var(--font-family);
+  font-feature-settings: "liga" off, "clig" off;
+  font-style: normal;
+  font-size: var(--font-size-regular);
+  font-weight: var(--font-weight-regular);
+  line-height: var(--line-height-regular);
+  letter-spacing: var(--letter-spacing-regular);
+}
+
+.text-outfit-bold {
+  color: var(--color-primary-dark);
+  font-family: var(--font-family);
+  font-feature-settings: "liga" off, "clig" off;
+  font-style: normal;
+  font-weight: var(--font-weight-bold);
+  font-size: var(--font-size-lg);
+  line-height: var(--line-height-bold);
+}
